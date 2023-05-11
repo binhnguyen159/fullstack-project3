@@ -9,14 +9,14 @@ import { FormsModule } from '@angular/forms';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HttpClientModule } from '@angular/common/http';
-import { ProductListComponent } from './Products/product-list/product-list.component';
-import { HeaderComponent } from './layout/header/header.component';
-import { ProductComponent } from './Products/product-list/product/product.component';
-import { ProductDetailComponent } from './Products/product-detail/product-detail.component';
-import { CartComponent } from './cart/cart.component';
-import { ProductCartComponent } from './cart/product-cart/product-cart.component';
-import { ButtonAddCartComponent } from './Products/button-add-cart/button-add-cart.component';
-import { OrderConfirmationComponent } from './order-confirmation/order-confirmation.component';
+import { ProductListComponent } from './components/Products/product-list/product-list.component';
+import { HeaderComponent } from './components/layout/header/header.component';
+import { ProductComponent } from './components/Products/product-list/product/product.component';
+import { ProductDetailComponent } from './components/Products/product-detail/product-detail.component';
+import { CartComponent } from './components/cart/cart.component';
+import { ProductCartComponent } from './components/cart/product-cart/product-cart.component';
+import { ButtonAddCartComponent } from './components/Products/button-add-cart/button-add-cart.component';
+import { OrderConfirmationComponent } from './components/order-confirmation/order-confirmation.component';
 
 @NgModule({
   declarations: [

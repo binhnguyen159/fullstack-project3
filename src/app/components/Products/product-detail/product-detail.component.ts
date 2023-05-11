@@ -1,15 +1,14 @@
 import { Component, OnInit, Output, EventEmitter } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
-import { HttpService } from './../../services/http.service';
 import { Product } from 'src/app/models/Product';
-
+import { HttpService } from 'src/app/services/http.service';
 @Component({
   selector: 'app-product-detail',
   templateUrl: './product-detail.component.html',
   styleUrls: ['./product-detail.component.scss'],
 })
 export class ProductDetailComponent implements OnInit {
-  product: Product = new Product;
+  product: Product = new Product();
   productId: string = '';
   amount: string = '1';
 
